@@ -77,7 +77,7 @@ color: #79C8C7;
  text-decoration: none;
 } 
 
-@media only screen and ( max-width:768px){ 
+@media only screen and ( max-width:768px) and (min-width:576px){ 
 .contact{ 
     background-position: calc(50% + 285px) calc(50% + 765px),calc(0%) calc(0%);
 }
@@ -104,7 +104,7 @@ margin-bottom: 84px;
 } 
 
 
-@media only screen and ( max-width:375px){ 
+@media only screen and (max-width:576px) and ( min-width:375px){ 
     .contact{ 
         background-position: calc(50% + 90px) calc(50% + 875px),calc(0%) calc(0%);
     }

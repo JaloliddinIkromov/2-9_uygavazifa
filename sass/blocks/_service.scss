@@ -69,7 +69,7 @@ margin-right: 23px;
 
 } 
  
-@media only screen and ( max-width:768px){ 
+@media only screen and ( max-width:768px) and (min-width:576px){ 
    
     .service{ 
         background-position: calc(50% + 335px) calc(0%);
@@ -86,7 +86,7 @@ flex-direction: column;
 }
 
 } 
-@media only screen and ( max-width:375px){ 
+@media only screen and (max-width:576px) and ( min-width:375px){ 
     .service{ 
         background-position: calc(50% + 140px) calc(0%);
     }
