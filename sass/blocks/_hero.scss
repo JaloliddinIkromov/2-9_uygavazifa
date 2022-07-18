@@ -1,0 +1,113 @@
+.hero{ 
+    background-image: url("../images/bg-img-2.png"),url("../images/bag_imges-1.png"); 
+    background-repeat: no-repeat,no-repeat; 
+    background-size: 358px 100px,100px 200px; 
+    background-position: calc(50% + 300px) calc(50% + 200px),calc(0% ) calc(0%);
+    background-color: $hero-bg-color;
+}  
+
+.hero__bloc{  
+ padding-bottom: 250px; 
+ display: flex; 
+ justify-content: space-between;
+
+}  
+.hero__title{  
+max-width: 620px;    
+width:100%;
+margin: 0px 30px 0px 0px; 
+
+
+}
+ 
+.hero__subtitle{ 
+ margin: 0; 
+ font-weight: 700;
+ font-size: 100px;
+ line-height: 100px;
+ color: #FFFFFF;
+} 
+.hero-span{ 
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color: #F67E7E;
+} 
+.hero__inner{ 
+
+width:100%; 
+max-width:445px ;
+
+} 
+.hero__inner-span{  
+  margin-bottom: 79px;  
+ display: inline-block;  
+ width: 100%;
+ max-width: 50px; 
+ height: 4px; 
+ background: #79C8C7; 
+
+} 
+.hero__inner-text{  
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+} 
+
+@media only screen and ( max-width:768px) { 
+    .hero{ 
+        background-position: calc(50%) calc(50% + 260px),calc(0% + -100px ) calc(0%);
+    } 
+    
+    .hero__bloc{  
+     display: flex; 
+     flex-direction: column;
+    } 
+    .hero__title{ 
+     margin: auto; 
+     text-align: center;
+    }  
+    .hero__subtitle{ 
+     margin-right: 0;
+    }
+    .hero__inner{ 
+     margin: auto; 
+     text-align: center;
+    } 
+
+    .hero__inner-span{ 
+     display: none;
+    }
+                } 
+
+
+ @media only screen and ( max-width:375px){ 
+  
+
+    .hero{ 
+        background-position: calc(50%)calc(50% + 368px) ,calc(0% + -100px )calc(0%);
+    } 
+    .hero__bloc{  
+        display: flex; 
+        flex-direction: column;
+       }  
+
+
+    .hero__title{ 
+     margin: auto; 
+     text-align: center;
+    }  
+    .hero__subtitle{ 
+     margin-right: 0;
+    }
+    .hero__inner{ 
+     margin: auto; 
+     text-align: center;
+    } 
+
+    .hero__inner-span{ 
+     display: none;
+    }
+}            
